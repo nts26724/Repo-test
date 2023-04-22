@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+}
+
+/* .main {
+    background-color: antiquewhite;
+} */
+
+.main .container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+/* img {
+    transform: scale(0.5);
+} */
+
+.container .img {
+    background-image: url(./images/image-product-desktop.jpg);
+    height: 80%;
+    width: 40%;
+    /* padding: 0 25%; */
+    background-size: cover;
+    /* transform: scale(0.5); */
+}
+
+.container .content {
+    font-size: 1.6rem;
+    height: 80%;
+    width: 40%;
+    background-color: #fff;
+}
